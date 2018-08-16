@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TEST HAS STARTED RUNNING:class org.testng.TestRunner]]>
+    </line>
+    <line>
+      <![CDATA[TEST HAS STARTED RUNNING:customerRegistration]]>
+    </line>
+    <line>
+      <![CDATA[TEST HAS SUCCESS: customerRegistration]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\Quennie\demo_project\DemoProject\src\main\java\successScreenshots\customerRegistration_09_08_2018_08_08_107.png'> <img src='C:\Users\Quennie\demo_project\DemoProject\src\main\java\successScreenshots\customerRegistration_09_08_2018_08_08_107.png' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="DemoProjectSuite" duration-ms="29858" started-at="2018-08-09T04:00:41Z" finished-at="2018-08-09T04:01:11Z">
+    <groups>
+    </groups>
+    <test name="DemoProjectTest" duration-ms="29858" started-at="2018-08-09T04:00:41Z" finished-at="2018-08-09T04:01:11Z">
+      <class name="DemoPack.DemoProject.TC_001">
+        <test-method status="PASS" signature="startProcess()[pri:0, instance:DemoPack.DemoProject.TC_001@481a15ff]" name="startProcess" is-config="true" duration-ms="15277" started-at="2018-08-09T04:00:41Z" finished-at="2018-08-09T04:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:DemoPack.DemoProject.TC_001@481a15ff]" name="beforeMethod" is-config="true" duration-ms="390" started-at="2018-08-09T04:00:56Z" finished-at="2018-08-09T04:00:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void DemoPack.DemoProject.TC_001.customerRegistration() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="customerRegistration()[pri:0, instance:DemoPack.DemoProject.TC_001@481a15ff]" name="customerRegistration" duration-ms="11797" started-at="2018-08-09T04:00:57Z" finished-at="2018-08-09T04:01:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TEST HAS STARTED RUNNING:customerRegistration]]>
+            </line>
+            <line>
+              <![CDATA[TEST HAS SUCCESS: customerRegistration]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\Quennie\demo_project\DemoProject\src\main\java\successScreenshots\customerRegistration_09_08_2018_08_08_107.png'> <img src='C:\Users\Quennie\demo_project\DemoProject\src\main\java\successScreenshots\customerRegistration_09_08_2018_08_08_107.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- customerRegistration -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:DemoPack.DemoProject.TC_001@481a15ff]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-08-09T04:01:09Z" finished-at="2018-08-09T04:01:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=customerRegistration status=SUCCESS method=TC_001.customerRegistration()[pri:0, instance:DemoPack.DemoProject.TC_001@481a15ff] output=TEST HAS STARTED RUNNING:customerRegistration]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:DemoPack.DemoProject.TC_001@481a15ff]" name="endProcess" is-config="true" duration-ms="1603" started-at="2018-08-09T04:01:09Z" finished-at="2018-08-09T04:01:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProcess -->
+      </class> <!-- DemoPack.DemoProject.TC_001 -->
+    </test> <!-- DemoProjectTest -->
+  </suite> <!-- DemoProjectSuite -->
+</testng-results>

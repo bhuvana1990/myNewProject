@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DemoProjectSuite]">
+  <listeners>
+    <listener class-name="customerListener.ListenerClass"/>
+    <listener class-name="customerListener.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="DemoProjectTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="DemoPack.DemoProject.TC_001">
+        <methods>
+          <include name="customerRegistration"/>
+          <include name="afterMethod"/>
+          <include name="startProcess"/>
+          <include name="beforeMethod"/>
+          <include name="endProcess"/>
+        </methods>
+      </class> <!-- DemoPack.DemoProject.TC_001 -->
+    </classes>
+  </test> <!-- DemoProjectTest(failed) -->
+</suite> <!-- Failed suite [DemoProjectSuite] -->
